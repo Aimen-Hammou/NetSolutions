@@ -1,0 +1,4 @@
+﻿  WorkingSniffer.cpp
+WorkingSniffer.cpp(2): warning C4005: 'WIN32': macro redefinition
+  WorkingSniffer.cpp: note: see previous definition of 'WIN32'
+  WorkingSniffer.vcxproj -> C:\Users\Lorenzo\Source\Repos\WorkingSniffer\Debug\WorkingSniffer.exe
