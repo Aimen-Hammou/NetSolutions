@@ -1,0 +1,21 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-11-27 17:12 ora solare Europa occidentale
+Nmap scan report for modemtim.homenet.telecomitalia.it (192.168.1.1)
+Host is up (0.039s latency).
+MAC Address: 10:13:31:5F:03:EE (Technicolor)
+Nmap scan report for Google-Home-Mini.homenet.telecomitalia.it (192.168.1.14)
+Host is up (0.0021s latency).
+MAC Address: B0:2A:43:5D:D3:08 (Unknown)
+Nmap scan report for HUAWEI_Mate_s.homenet.telecomitalia.it (192.168.1.17)
+Host is up (0.43s latency).
+MAC Address: FC:3F:7C:5B:F4:EF (Huawei Technologies)
+Nmap scan report for HUAWEI_Y6_2018-68b4c52ff4.homenet.telecomitalia.it (192.168.1.245)
+Host is up (0.83s latency).
+MAC Address: 7C:76:68:C8:5A:34 (Unknown)
+Nmap scan report for Linux.homenet.telecomitalia.it (192.168.1.254)
+Host is up (0.0010s latency).
+MAC Address: 12:13:31:5F:03:EE (Unknown)
+Nmap scan report for Lenovo-PC-001.homenet.telecomitalia.it (192.168.1.11)
+Host is up.
+Nmap scan report for Lenovo-PC.homenet.telecomitalia.it (192.168.1.123)
+Host is up.
+Nmap done: 256 IP addresses (7 hosts up) scanned in 26.68 seconds
