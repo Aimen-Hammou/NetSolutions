@@ -1,11 +1,9 @@
-#define TINS_STATIC 
-#define WIN32
+#define WIN32 
 #define WPCAP
 #define HAVE_REMOTE
 #define LINE_LEN 16
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 
-#include <tins/tins.h>
 #include <winsock2.h>
 #include <iostream>
 #include <pcap.h>
@@ -18,7 +16,6 @@
 
 //some packet processing functions
 void ProcessPacket(u_char*, int); //This will decide how to digest
-
 void print_ethernet_header(u_char*);
 void PrintIpHeader(u_char*, int);
 void PrintIcmpPacket(u_char*, int);
@@ -192,7 +189,7 @@ int main()
 		return -1;
 	}
 
-	//read packets in a loop :)
+	//read packets in a loop
 	while ((res = pcap_next_ex(fp, &header, (const u_char**)&pkt_data)) >= 0)
 	{
 		if (res == 0)
